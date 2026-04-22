@@ -559,6 +559,137 @@ a:hover {
     }
 }
 
+/* Dark Mode Toggle Button */
+#dark-mode-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #666;
+    font-size: 18px;
+    padding: 0;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    transition: color 0.2s ease;
+}
+
+#dark-mode-toggle:hover {
+    color: #4A90E2;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    color: #e0e0e0;
+    background-color: #121212;
+}
+
+body.dark-mode a {
+    color: #7ab3f0;
+}
+
+body.dark-mode a:hover {
+    color: #a8ccf5;
+}
+
+body.dark-mode .main-nav {
+    background-color: #1a1a1a;
+    border-bottom-color: #333;
+}
+
+body.dark-mode .nav-links a {
+    color: #aaa;
+}
+
+body.dark-mode .nav-links a:hover {
+    color: #7ab3f0;
+}
+
+body.dark-mode .social-icons a,
+body.dark-mode #dark-mode-toggle {
+    color: #aaa;
+}
+
+body.dark-mode .social-icons a:hover,
+body.dark-mode #dark-mode-toggle:hover {
+    color: #7ab3f0;
+}
+
+body.dark-mode .name {
+    color: #f0f0f0;
+}
+
+body.dark-mode .pronouns {
+    color: #888;
+}
+
+body.dark-mode .info-item {
+    color: #bbb;
+}
+
+body.dark-mode .info-item .fa-briefcase,
+body.dark-mode .info-item .fa-map-marker-alt,
+body.dark-mode .info-item .fa-envelope {
+    color: #ccc;
+}
+
+body.dark-mode .header-photo img {
+    border-color: #444;
+}
+
+body.dark-mode .content-section h2 {
+    color: #f0f0f0;
+    border-bottom-color: #444;
+}
+
+body.dark-mode .news-item-row {
+    border-bottom-color: #2a2a2a;
+}
+
+body.dark-mode .news-date {
+    color: #888;
+}
+
+body.dark-mode .research-interests li {
+    color: #ccc;
+}
+
+body.dark-mode .publication {
+    border-bottom-color: #2a2a2a;
+}
+
+body.dark-mode .pub-authors {
+    color: #aaa;
+}
+
+body.dark-mode .pub-authors strong {
+    color: #ddd;
+}
+
+body.dark-mode .pub-venue {
+    color: #999;
+}
+
+body.dark-mode .pub-link-btn {
+    background-color: #2a2a2a;
+    color: #bbb;
+    border-color: #444;
+}
+
+body.dark-mode .pub-link-btn:hover {
+    background-color: #4A90E2;
+    color: #fff;
+    border-color: #4A90E2;
+}
+
+body.dark-mode .site-footer {
+    background-color: #1a1a1a;
+    border-top-color: #333;
+}
+
+body.dark-mode .site-footer p {
+    color: #666;
+}
+
 /* Print Styles */
 @media print {
     .social-bar,
