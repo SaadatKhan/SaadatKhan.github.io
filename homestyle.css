@@ -295,9 +295,9 @@ a:hover {
     font-size: 14px;
     font-weight: 600;
     font-style: normal;
-    color: #2e7d4f;
-    background-color: #e8f6ee;
-    border: 1px solid #c3e6d1;
+    color: #c15f3c;
+    background-color: #faf0eb;
+    border: 1px solid #e8cabb;
     padding: 3px 12px;
     border-radius: 6px;
     margin-bottom: 6px;
@@ -676,9 +676,9 @@ body.dark-mode .pub-authors strong {
 }
 
 body.dark-mode .pub-venue {
-    color: #8fd6ab;
-    background-color: #16291f;
-    border-color: #2f5a41;
+    color: #e08a63;
+    background-color: #2a1a12;
+    border-color: #5a3826;
 }
 
 body.dark-mode .pub-link-btn {
