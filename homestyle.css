@@ -291,9 +291,15 @@ a:hover {
 }
 
 .pub-venue {
-    font-size: 16px;
-    font-style: italic;
-    color: #666;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    color: #2e7d4f;
+    background-color: #e8f6ee;
+    border: 1px solid #c3e6d1;
+    padding: 3px 12px;
+    border-radius: 6px;
     margin-bottom: 6px;
 }
 
@@ -312,19 +318,23 @@ a:hover {
 
 .pub-link-btn {
     display: inline-block;
-    padding: 4px 12px;
-    background-color: #f0f0f0;
-    color: #555;
-    font-size: 14px;
+    padding: 5px 16px;
+    background-color: #fff;
+    color: #333;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
     border-radius: 4px;
-    border: 1px solid #ddd;
+    border: 1px solid #333;
     transition: all 0.2s ease;
 }
 
 .pub-link-btn:hover {
-    background-color: #4A90E2;
+    background-color: #333;
     color: #fff;
-    border-color: #4A90E2;
+    border-color: #333;
     text-decoration: none;
 }
 
@@ -666,19 +676,21 @@ body.dark-mode .pub-authors strong {
 }
 
 body.dark-mode .pub-venue {
-    color: #999;
+    color: #8fd6ab;
+    background-color: #16291f;
+    border-color: #2f5a41;
 }
 
 body.dark-mode .pub-link-btn {
-    background-color: #2a2a2a;
-    color: #bbb;
-    border-color: #444;
+    background-color: transparent;
+    color: #ddd;
+    border-color: #ddd;
 }
 
 body.dark-mode .pub-link-btn:hover {
-    background-color: #4A90E2;
-    color: #fff;
-    border-color: #4A90E2;
+    background-color: #ddd;
+    color: #121212;
+    border-color: #ddd;
 }
 
 body.dark-mode .site-footer {
